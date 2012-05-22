@@ -1,0 +1,272 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23DB8BF1156A366F0090BB7D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23DB8BF0156A366F0090BB7D /* UIKit.framework */; };
+		23DB8BF3156A366F0090BB7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23DB8BF2156A366F0090BB7D /* Foundation.framework */; };
+		23DB8BF5156A366F0090BB7D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23DB8BF4156A366F0090BB7D /* CoreGraphics.framework */; };
+		23DB8BFB156A366F0090BB7D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 23DB8BF9156A366F0090BB7D /* InfoPlist.strings */; };
+		23DB8BFD156A36700090BB7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23DB8BFC156A36700090BB7D /* main.m */; };
+		23DB8C01156A36700090BB7D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23DB8C00156A36700090BB7D /* AppDelegate.m */; };
+		23DB8C0D156A3FC40090BB7D /* MYLoadingPic.m in Sources */ = {isa = PBXBuildFile; fileRef = 23DB8C0C156A3FC40090BB7D /* MYLoadingPic.m */; };
+		23EB879B156B46EF005478BF /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 23EB879A156B46EE005478BF /* 1.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		23DB8BEC156A366F0090BB7D /* mutidownload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mutidownload.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23DB8BF0156A366F0090BB7D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		23DB8BF2156A366F0090BB7D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		23DB8BF4156A366F0090BB7D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		23DB8BF8156A366F0090BB7D /* mutidownload-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mutidownload-Info.plist"; sourceTree = "<group>"; };
+		23DB8BFA156A366F0090BB7D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		23DB8BFC156A36700090BB7D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		23DB8BFE156A36700090BB7D /* mutidownload-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mutidownload-Prefix.pch"; sourceTree = "<group>"; };
+		23DB8BFF156A36700090BB7D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		23DB8C00156A36700090BB7D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		23DB8C0B156A3FC40090BB7D /* MYLoadingPic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYLoadingPic.h; sourceTree = "<group>"; };
+		23DB8C0C156A3FC40090BB7D /* MYLoadingPic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYLoadingPic.m; sourceTree = "<group>"; };
+		23EB879A156B46EE005478BF /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23DB8BE9156A366F0090BB7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23DB8BF1156A366F0090BB7D /* UIKit.framework in Frameworks */,
+				23DB8BF3156A366F0090BB7D /* Foundation.framework in Frameworks */,
+				23DB8BF5156A366F0090BB7D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23DB8BE1156A366F0090BB7D = {
+			isa = PBXGroup;
+			children = (
+				23DB8BF6156A366F0090BB7D /* mutidownload */,
+				23DB8BEF156A366F0090BB7D /* Frameworks */,
+				23DB8BED156A366F0090BB7D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23DB8BED156A366F0090BB7D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23DB8BEC156A366F0090BB7D /* mutidownload.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23DB8BEF156A366F0090BB7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23DB8BF0156A366F0090BB7D /* UIKit.framework */,
+				23DB8BF2156A366F0090BB7D /* Foundation.framework */,
+				23DB8BF4156A366F0090BB7D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		23DB8BF6156A366F0090BB7D /* mutidownload */ = {
+			isa = PBXGroup;
+			children = (
+				23DB8BFF156A36700090BB7D /* AppDelegate.h */,
+				23DB8C00156A36700090BB7D /* AppDelegate.m */,
+				23DB8BF7156A366F0090BB7D /* Supporting Files */,
+				23DB8C0B156A3FC40090BB7D /* MYLoadingPic.h */,
+				23EB879A156B46EE005478BF /* 1.png */,
+				23DB8C0C156A3FC40090BB7D /* MYLoadingPic.m */,
+			);
+			path = mutidownload;
+			sourceTree = "<group>";
+		};
+		23DB8BF7156A366F0090BB7D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				23DB8BF8156A366F0090BB7D /* mutidownload-Info.plist */,
+				23DB8BF9156A366F0090BB7D /* InfoPlist.strings */,
+				23DB8BFC156A36700090BB7D /* main.m */,
+				23DB8BFE156A36700090BB7D /* mutidownload-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23DB8BEB156A366F0090BB7D /* mutidownload */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23DB8C04156A36700090BB7D /* Build configuration list for PBXNativeTarget "mutidownload" */;
+			buildPhases = (
+				23DB8BE8156A366F0090BB7D /* Sources */,
+				23DB8BE9156A366F0090BB7D /* Frameworks */,
+				23DB8BEA156A366F0090BB7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mutidownload;
+			productName = mutidownload;
+			productReference = 23DB8BEC156A366F0090BB7D /* mutidownload.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23DB8BE3156A366F0090BB7D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 23DB8BE6156A366F0090BB7D /* Build configuration list for PBXProject "mutidownload" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 23DB8BE1156A366F0090BB7D;
+			productRefGroup = 23DB8BED156A366F0090BB7D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23DB8BEB156A366F0090BB7D /* mutidownload */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23DB8BEA156A366F0090BB7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23DB8BFB156A366F0090BB7D /* InfoPlist.strings in Resources */,
+				23EB879B156B46EF005478BF /* 1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23DB8BE8156A366F0090BB7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23DB8BFD156A36700090BB7D /* main.m in Sources */,
+				23DB8C01156A36700090BB7D /* AppDelegate.m in Sources */,
+				23DB8C0D156A3FC40090BB7D /* MYLoadingPic.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		23DB8BF9156A366F0090BB7D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23DB8BFA156A366F0090BB7D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23DB8C02156A36700090BB7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		23DB8C03156A36700090BB7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23DB8C05156A36700090BB7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mutidownload/mutidownload-Prefix.pch";
+				INFOPLIST_FILE = "mutidownload/mutidownload-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		23DB8C06156A36700090BB7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mutidownload/mutidownload-Prefix.pch";
+				INFOPLIST_FILE = "mutidownload/mutidownload-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23DB8BE6156A366F0090BB7D /* Build configuration list for PBXProject "mutidownload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23DB8C02156A36700090BB7D /* Debug */,
+				23DB8C03156A36700090BB7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23DB8C04156A36700090BB7D /* Build configuration list for PBXNativeTarget "mutidownload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23DB8C05156A36700090BB7D /* Debug */,
+				23DB8C06156A36700090BB7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23DB8BE3156A366F0090BB7D /* Project object */;
+}
